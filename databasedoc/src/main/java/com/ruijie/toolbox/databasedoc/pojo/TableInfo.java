@@ -160,7 +160,7 @@ public class TableInfo {
 		{
 			TableInfo ti = new TableInfo();
 			for (ColumnInfo columnInfo : ci) {
-				switch (columnInfo.getColumnName())
+				switch (columnInfo.getColumnName().toUpperCase())
 				{
 					case "TABLE_CAT":
 						ti.catalogName = rs.getString(columnInfo.getColumnName());
