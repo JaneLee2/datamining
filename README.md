@@ -23,22 +23,22 @@ java -jar D:/datamining-0.0.1-SNAPSHOT.jar spring.config.location="D:/applicatio
 1） mysql数据库   
 **spring.datasource.url**:  jdbc:mariadb://ip:port/base?autoReconnect=true&autoReconnectForPools=true&useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true   
 **spring.datasource.driverClassName**:  org.mariadb.jdbc.Driver     
-**spring.datasource.username**:  username 
+**spring.datasource.username**:  username      
 **spring.datasource.password**:  password   
 2） oracle数据库   
 **spring.datasource.url**:  jdbc:oracle:thin:@ip:port:sid   
 **spring.datasource.driverClassName**:  oracle.jdbc.driver.OracleDriver     
-**spring.datasource.username**:  username 
+**spring.datasource.username**:  username       
 **spring.datasource.password**:  password   
 3） sqlserver数据库   
 **spring.datasource.url**:  jdbc:sqlserver://ip:port;DatabaseName=base   
 **spring.datasource.driverClassName**:  com.microsoft.sqlserver.jdbc.SQLServerDriver     
-**spring.datasource.username**:  username 
+**spring.datasource.username**:  username      
 **spring.datasource.password**:  password    
 4） postsql数据库   
 **spring.datasource.url**:  jdbc:postgresql://ip:port/base   
 **spring.datasource.driverClassName**:  org.postgresql.Driver     
-**spring.datasource.username**:  username 
+**spring.datasource.username**:  username       
 **spring.datasource.password**:  password    
 ## word效果 ##
 ![](https://i.imgur.com/rujaxnW.png)
